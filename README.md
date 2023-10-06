@@ -61,23 +61,36 @@ endmodule
 
 ### Output:
 Truthtable half adder:
+
 ![image](https://github.com/SAKTHISWAR/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/de1.png)
+
 full adder:
+
 ![image](https://github.com/SAKTHISWAR/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/de2.png)
 
 ### RTL realization
 half adder:
+
+
 ![image](https://github.com/SAKTHISWAR/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/de3.png)
 
+
 full adder:
+
+
 ![image](https://github.com/SAKTHISWAR/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/de4.png)
 
 ### Output waveform:
+
 half adder:
+
+
 ![image](https://github.com/SAKTHISWAR/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/de5.png)
 
 
 full adder:
+
+
 ![image](https://github.com/SAKTHISWAR/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/de6.png)
 
 
