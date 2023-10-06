@@ -7,8 +7,6 @@ To design a half adder and full adder circuit and verify its truth table in Quar
 ### Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
-Theory
-Adders are digital circuits that carry out addition of numbers.
 
 ### Half Adder
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
@@ -34,17 +32,51 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
-/*
+
+### Program:
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+Developed by: SAKTHISWAR S
+RegisterNumber: 212222230127
+
+```python
+1. Program to design a half adder:
+
+module ex3a(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum=a^b;
+assign carry=a&b;
+endmodule
+
+2. Program to design a full adder:
+
+module ex3b(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=a^b^cin;
+assign carry=(a&b)|((a^b)&cin);
+endmodule
+
+```
 
 ### Output:
+Truthtable half adder:
+
+full adder:
+
+### RTL realization
+half adder:
+
+full adder:
+
+### Output waveform:
+half adder:
+
+full adder:
+
+
+
+
 ### RTL
 ### TIMING DIAGRAM
 
